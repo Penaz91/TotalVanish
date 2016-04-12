@@ -1,0 +1,14 @@
+# TotalVanish Configuration file
+# Players having the TotalVanish.Notify permission will see a notification
+# Players having the TotalVanish.Notify permission will be able to check their vanish status
+# Players having the TotalVanish.Vanish permission will be tracked
+# Commands: List of commands to track 
+Vanish_By_Default : false
+
+Commands:
+- ping
+- gc
+
+Disguises:
+  ping: "&4Player $Player$ Not Found"
+  gc: "You can't use /gc here you derp!"

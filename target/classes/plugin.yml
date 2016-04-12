@@ -1,0 +1,17 @@
+name: TotalVanish
+main: smallutils.totalvanish.main
+version: 0.0.1-SNAPSHOT
+
+commands:
+    tv d:
+        description: Toggles the plugin disguise mode
+        aliases: [tvd]
+        usage: /tv d
+        permission: TotalVanish.Disguise
+        permission-message: Sorry, but you don't have the permission to execute this command
+    tv s:
+        description: Shows the plugin's status
+        aliases: [tvs]
+        usage: /tv s
+        permission: TotalVanish.Status
+        permission-message: Sorry, but you don't have the permission to execute this command
