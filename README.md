@@ -1,4 +1,7 @@
 # TotalVanish
+
+![Status:Unmaintained](https://img.shields.io/badge/Project_Status-Unmaintained-red.svg)
+
 Small Command Disguise plugin for Spigot
 
 ### Description
